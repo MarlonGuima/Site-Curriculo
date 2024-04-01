@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    background-color: #f8eacd;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+    @media only screen and (max-device-width: 900px) {
+        /* .menu { width:100%; } */
+        }
+}
+h1{
+    text-align: center;
+    color: black;
+    border: 2px solid #b69a5d;
+}
+h2{
+    text-align: center;
+    color: black;
+    border: 2px solid #b69a5d;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+li{
+    list-style-type: disc;
+}
+.inicio img{
+    width: 400px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
